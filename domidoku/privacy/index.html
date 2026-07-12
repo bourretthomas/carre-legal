@@ -38,7 +38,7 @@
 
   <section>
     <h2>Summary</h2>
-    <p>Domidoku is a single-player puzzle game. We do not run a back-end. We do not have an account system. Your game progress stays on your device. The only data that leaves your device goes to Google AdMob — and only to serve and measure advertisements — unless you have removed ads via in-app purchase.</p>
+    <p>Domidoku is a single-player puzzle game. We do not run a back-end. We do not have an account system. Your game progress stays on your device and, if you are signed into iCloud, in your own private iCloud storage so it can follow you between your devices — we cannot access it either way. Beyond that, the only data that leaves your device goes to Google AdMob — and only to serve and measure advertisements — unless you have removed ads via in-app purchase.</p>
     <p>Read on for the longer version.</p>
   </section>
 
@@ -48,14 +48,14 @@
   </section>
 
   <section>
-    <h2>2. What We Store on Your Device</h2>
+    <h2>2. What We Store on Your Device &amp; Your iCloud</h2>
     <p>The following information is stored locally on your device and never transmitted to us:</p>
     <ul>
       <li>Game progress: completed puzzles, best times, current daily streak, ongoing-game saves</li>
       <li>Settings: sound / music / haptics preferences, your player name, avatar colour, ad-removal status</li>
       <li>Tutorial state: whether you have seen the tutorial</li>
     </ul>
-    <p>This data lives in iOS local storage (SwiftData and UserDefaults). It is wiped when you uninstall the App or tap “Reset all progress” in Settings.</p>
+    <p>This data lives in iOS local storage (SwiftData and UserDefaults). If you are signed into iCloud, a small progress summary (completions, best times, streak, hint balance) also syncs through Apple's iCloud key-value storage so your progress follows you between your own devices. That copy lives in your personal iCloud account, is handled by Apple under Apple's privacy terms, and is not visible to us. Everything is wiped when you uninstall the App or tap “Reset all progress” in Settings; the mid-game save never leaves the device it was played on.</p>
   </section>
 
   <section>
